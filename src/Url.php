@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace App;
+namespace DenyWhite\UrlHelper;
 
 use Stringable;
 
@@ -85,8 +85,10 @@ class Url implements Stringable
     }
 
     /**
-     * @return string
-     * @throws WrongUrlException
+     * Iterpolate to string
+     *
+     * @return string Url
+     * @throws WrongUrlException Some exception
      */
     public function toString(): string
     {

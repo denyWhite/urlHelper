@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace App\Tests\TestCase;
+namespace DenyWhite\UrlHelper\Tests\TestCase;
 
-use App\Url;
-use App\WrongUrlException;
+use DenyWhite\UrlHelper\Url;
+use DenyWhite\UrlHelper\WrongUrlException;
 use PHPUnit\Framework\TestCase;
 
 class UrlTest extends TestCase
