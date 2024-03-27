@@ -9,6 +9,7 @@ $readmeGenerator = new GenerateApi();
 $readmeGenerator->hideTheFunctionIndex = true;
 
 $readmeGenerator->templateMethod = <<<RAW
+
 #### %name%
 %description%
 

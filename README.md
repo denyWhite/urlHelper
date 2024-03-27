@@ -3,6 +3,7 @@
 
 # Documentation
 <p id="voku-php-readme-class-methods"></p>
+
 #### addQueryParam(string $queryParam, string|array $queryValue): $this
 
 
@@ -14,6 +15,7 @@
 - `$this`
 
 --------
+
 #### getFragment(): string|null
 
 
@@ -24,6 +26,7 @@ __nothing__
 - `string|null`
 
 --------
+
 #### getHost(): string|null
 
 
@@ -34,6 +37,7 @@ __nothing__
 - `string|null`
 
 --------
+
 #### getPass(): string|null
 
 
@@ -44,6 +48,7 @@ __nothing__
 - `string|null`
 
 --------
+
 #### getPathParts(): string[]
 
 
@@ -54,6 +59,7 @@ __nothing__
 - `string[]`
 
 --------
+
 #### getPort(): int|null
 
 
@@ -64,6 +70,7 @@ __nothing__
 - `int|null`
 
 --------
+
 #### getQueryParams(): string[]
 
 
@@ -74,6 +81,7 @@ __nothing__
 - `string[]`
 
 --------
+
 #### getScheme(): string|null
 
 
@@ -84,6 +92,7 @@ __nothing__
 - `string|null`
 
 --------
+
 #### getUser(): string|null
 
 
@@ -94,6 +103,7 @@ __nothing__
 - `string|null`
 
 --------
+
 #### isHttp(): bool
 
 
@@ -104,6 +114,7 @@ __nothing__
 - `bool`
 
 --------
+
 #### isHttps(): bool
 
 
@@ -114,6 +125,7 @@ __nothing__
 - `bool`
 
 --------
+
 #### isValidUrl(string $url): bool
 
 
@@ -124,6 +136,7 @@ __nothing__
 - `bool`
 
 --------
+
 #### removeFragment(): $this
 
 
@@ -134,6 +147,7 @@ __nothing__
 - `$this`
 
 --------
+
 #### removeHost(): $this
 
 
@@ -144,6 +158,7 @@ __nothing__
 - `$this`
 
 --------
+
 #### removePass(): $this
 
 
@@ -154,6 +169,7 @@ __nothing__
 - `$this`
 
 --------
+
 #### removePathParts(): $this
 
 
@@ -164,6 +180,7 @@ __nothing__
 - `$this`
 
 --------
+
 #### removePort(): $this
 
 
@@ -174,6 +191,7 @@ __nothing__
 - `$this`
 
 --------
+
 #### removeQueryParam(string $queryParam): $this
 
 
@@ -184,6 +202,7 @@ __nothing__
 - `$this`
 
 --------
+
 #### removeQueryParams(): $this
 
 
@@ -194,6 +213,7 @@ __nothing__
 - `$this`
 
 --------
+
 #### removeScheme(): $this
 
 
@@ -204,6 +224,7 @@ __nothing__
 - `$this`
 
 --------
+
 #### removeUser(): $this
 
 
@@ -214,6 +235,7 @@ __nothing__
 - `$this`
 
 --------
+
 #### setFragment(string $fragment): $this
 
 
@@ -224,6 +246,7 @@ __nothing__
 - `$this`
 
 --------
+
 #### setHost(string $host): $this
 
 
@@ -234,6 +257,7 @@ __nothing__
 - `$this`
 
 --------
+
 #### setPass(string $pass): $this
 
 
@@ -244,6 +268,7 @@ __nothing__
 - `$this`
 
 --------
+
 #### setPathParts(array $pathParts): $this
 
 
@@ -254,6 +279,7 @@ __nothing__
 - `$this`
 
 --------
+
 #### setPort(int $port): $this
 
 
@@ -264,6 +290,7 @@ __nothing__
 - `$this`
 
 --------
+
 #### setQueryParams(string[]|array[] $queryParams): $this
 
 
@@ -274,6 +301,7 @@ __nothing__
 - `$this`
 
 --------
+
 #### setScheme(string $scheme): $this
 
 
@@ -284,6 +312,7 @@ __nothing__
 - `$this`
 
 --------
+
 #### setUser(string $user): $this
 
 
@@ -294,6 +323,7 @@ __nothing__
 - `$this`
 
 --------
+
 #### toString(): string
 Iterpolate to string
 
@@ -304,6 +334,7 @@ __nothing__
 - `string Url`
 
 --------
+
 #### withHttpScheme(): $this
 
 
@@ -314,6 +345,7 @@ __nothing__
 - `$this`
 
 --------
+
 #### withHttpsScheme(): $this
 
 
