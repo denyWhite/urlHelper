@@ -1,9 +1,13 @@
+#!/usr/bin/env php
 <?php
 declare(strict_types=1);
 
 include __DIR__ . '/../vendor/autoload.php';
 
 use voku\PhpReadmeHelper\GenerateApi;
+
+$readmeFilePath = __DIR__ . '/../README.md';
+$oldReadme = file_get_contents($readmeFilePath);
 
 $readmeGenerator = new GenerateApi();
 $readmeGenerator->hideTheFunctionIndex = true;
@@ -30,3 +34,5 @@ $readmeText = ($readmeGenerator)->generate(
 );
 
 file_put_contents(__DIR__ . '/../README.md', $readmeText);
+
+exit(1);
